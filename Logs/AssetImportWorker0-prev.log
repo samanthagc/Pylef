@@ -15,11 +15,11 @@ C:/Users/AleCosta/Desktop/samantha/fatec/03-semestre/poo/projects/Pylef
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60328
+54442
 Successfully changed project path to: C:/Users/AleCosta/Desktop/samantha/fatec/03-semestre/poo/projects/Pylef
 C:/Users/AleCosta/Desktop/samantha/fatec/03-semestre/poo/projects/Pylef
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 191.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 144.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.15f2 (6cf78cb77498)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009408 seconds.
+Registered in 0.005416 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 124.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 121.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.835 seconds
+- Completed reload, in  3.581 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7835ms)
-		BeginReloadAssembly (163ms)
+	ReloadAssembly (3581ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (803ms)
-			LoadAssemblies (158ms)
+		EndReloadAssembly (790ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
+			SetupTypeCache (263ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (341ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (345ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (124ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.026753 seconds.
+Registered in 0.009281 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 122.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 142.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.694 seconds
+- Completed reload, in  2.522 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2696ms)
-		BeginReloadAssembly (292ms)
+	ReloadAssembly (2524ms)
+		BeginReloadAssembly (305ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (2275ms)
-			LoadAssemblies (287ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2103ms)
+			LoadAssemblies (169ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (651ms)
+			SetupTypeCache (649ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (126ms)
-			SetupLoadedEditorAssemblies (956ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (936ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (122ms)
-				BeforeProcessingInitializeOnLoad (184ms)
-				ProcessInitializeOnLoadAttributes (593ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (21ms)
+				RefreshPlugins (142ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (602ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2562 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 118.2 MB.
-System memory in use after: 118.1 MB.
+System memory in use before: 118.3 MB.
+System memory in use after: 118.2 MB.
 
 Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2990.
-Total: 5.097400 ms (FindLiveObjects: 0.761800 ms CreateObjectMapping: 0.240500 ms MarkObjects: 3.706700 ms  DeleteObjects: 0.380900 ms)
+Total: 4.474800 ms (FindLiveObjects: 0.316700 ms CreateObjectMapping: 0.149000 ms MarkObjects: 3.683300 ms  DeleteObjects: 0.323200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,105 +134,295 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/2DGamekit/Scripts/Character/Editor/PlayerCharacterEditor.cs
-  artifactKey: Guid(d6e806bf29a2f08408889852665c9800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2DGamekit/Scripts/Character/Editor/PlayerCharacterEditor.cs using Guid(d6e806bf29a2f08408889852665c9800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468db6bf1c94aed7c019d097a4712740') in 0.069721 seconds 
-  Import took 0.078385 seconds .
+  path: Assets/Fase Um.unity
+  artifactKey: Guid(ebacebf9e79711c488009155036c9b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fase Um.unity using Guid(ebacebf9e79711c488009155036c9b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9eabfd6327066a477b15f926368c51') in 0.040018 seconds 
+  Import took 0.051722 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/2DGamekit/Scripts/Character/Editor/DamageableEditor.cs
-  artifactKey: Guid(b7233221ef3c3cb469db7a5dfc92588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2DGamekit/Scripts/Character/Editor/DamageableEditor.cs using Guid(b7233221ef3c3cb469db7a5dfc92588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ba8e5c7410dadb694287b852588979') in 0.016226 seconds 
-  Import took 0.026252 seconds .
+  Time since last request: 963.705314 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Pylef.png
+  artifactKey: Guid(7327ba3b1ce68074cbd5adc217d1360e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/Tilesets/Tileset_Pylef.png using Guid(7327ba3b1ce68074cbd5adc217d1360e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0299455c015711eafb0ae28ee5f7b82') in 0.302042 seconds 
+  Import took 0.319137 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.309122 seconds.
-  path: Assets/2DGamekit/Prefabs/Environment/Acid.prefab
-  artifactKey: Guid(3aa03ae1689a947448e3ea2b622614f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2DGamekit/Prefabs/Environment/Acid.prefab using Guid(3aa03ae1689a947448e3ea2b622614f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1cfe7e8b94ce801a08f36cfd6d72eac') in 0.499838 seconds 
-  Import took 0.508315 seconds .
+  Time since last request: 103.957765 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefEXEMPLO1-fase1.png
+  artifactKey: Guid(0b563a9932e975a41b7d330245c1cd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefEXEMPLO1-fase1.png using Guid(0b563a9932e975a41b7d330245c1cd40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54dd90fb4a41e68f13724589cadea74') in 0.071790 seconds 
+  Import took 0.088002 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/2DGamekit/Prefabs/Environment/Spikes.prefab
-  artifactKey: Guid(4ff9f7a332b4ae44bb62aaee6eacc033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2DGamekit/Prefabs/Environment/Spikes.prefab using Guid(4ff9f7a332b4ae44bb62aaee6eacc033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6240deab8232ade6948c492fc9367787') in 0.397959 seconds 
-  Import took 0.405472 seconds .
+  Time since last request: 147.480981 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefNuvensParalaxFase1.png
+  artifactKey: Guid(bbbee464edc7fee48855bcfdc1db9be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefNuvensParalaxFase1.png using Guid(bbbee464edc7fee48855bcfdc1db9be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972f56f4db730cc98c309ac14050d058') in 0.084266 seconds 
+  Import took 0.102020 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.040334 seconds.
-  path: Assets/2DGamekit/Prefabs/Ellen.prefab
-  artifactKey: Guid(73360cdb4e1e7ed4897690f9d57fd0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2DGamekit/Prefabs/Ellen.prefab using Guid(73360cdb4e1e7ed4897690f9d57fd0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c959fe0b195355f0835f8b44f3a6f63b') in 0.240315 seconds 
-  Import took 0.254630 seconds .
+  Time since last request: 233.236209 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefBackgroundBlue.png
+  artifactKey: Guid(1e87cc7afd080464091e65c68c1f53e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefBackgroundBlue.png using Guid(1e87cc7afd080464091e65c68c1f53e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fa770202997a4c894f8315e4190a65') in 0.063665 seconds 
+  Import took 0.081526 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/2DGamekit/Prefabs/MainCamera.prefab
-  artifactKey: Guid(bb0018ce3a8caa643b44f8487c34bd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2DGamekit/Prefabs/MainCamera.prefab using Guid(bb0018ce3a8caa643b44f8487c34bd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ef64f92f4c1cdb6d2a3114d6a4a4a6') in 0.033298 seconds 
-  Import took 0.042695 seconds .
+  Time since last request: 20.911614 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefPracinhaParalaxFase1.png
+  artifactKey: Guid(683f807d25ac7c24289c63c00efe54d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefPracinhaParalaxFase1.png using Guid(683f807d25ac7c24289c63c00efe54d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ace7e649f5f278195f8eb4197f1cca6') in 0.073076 seconds 
+  Import took 0.089397 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.137421 seconds.
-  path: Assets/2DGamekit/Prefabs/Utilities/Localizer.prefab
-  artifactKey: Guid(c4265b110bb2c484e9f7130b2e605218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2DGamekit/Prefabs/Utilities/Localizer.prefab using Guid(c4265b110bb2c484e9f7130b2e605218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef32260deaade731937ff50e3e1a6bf8') in 0.051994 seconds 
-  Import took 0.061010 seconds .
+  Time since last request: 18.904841 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefSkyBlue.png
+  artifactKey: Guid(2b3e67bb549613245934c9c7e7424a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefSkyBlue.png using Guid(2b3e67bb549613245934c9c7e7424a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24afb60679ded4040ca97cbed46620bf') in 0.107609 seconds 
+  Import took 0.124471 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/2DGamekit/Prefabs/Utilities/ObjectPositionResetter.prefab
-  artifactKey: Guid(e6a7390a68a87cc44bf2d5eae1fc46d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2DGamekit/Prefabs/Utilities/ObjectPositionResetter.prefab using Guid(e6a7390a68a87cc44bf2d5eae1fc46d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f393a31680a55fdaa13129f61393e1f5') in 0.027309 seconds 
-  Import took 0.046170 seconds .
+  Time since last request: 969.487650 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefCogumeloDuplo.png
+  artifactKey: Guid(fcf6a43485db5824ea9f63765c10748c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefCogumeloDuplo.png using Guid(fcf6a43485db5824ea9f63765c10748c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9addd5024f36199fb70fecbfd80768fc') in 0.061185 seconds 
+  Import took 0.078898 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000539 seconds.
-  path: Assets/2DGamekit/Prefabs/Utilities/SpitterSpitPool.prefab
-  artifactKey: Guid(668940f422f1b1c458f0b6b36ba7de9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2DGamekit/Prefabs/Utilities/SpitterSpitPool.prefab using Guid(668940f422f1b1c458f0b6b36ba7de9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608282948ea7782b291b009f2a2cad20') in 0.070420 seconds 
-  Import took 0.078632 seconds .
+  Time since last request: 0.001125 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefCogumeloDuplo.png
+  artifactKey: Guid(fcf6a43485db5824ea9f63765c10748c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefCogumeloDuplo.png using Guid(fcf6a43485db5824ea9f63765c10748c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9addd5024f36199fb70fecbfd80768fc') in 0.039568 seconds 
+  Import took 0.057139 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/2DGamekit/Prefabs/Utilities/PhysicsHelper.prefab
-  artifactKey: Guid(5e97833b7c43abc418eeee08d291ea3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2DGamekit/Prefabs/Utilities/PhysicsHelper.prefab using Guid(5e97833b7c43abc418eeee08d291ea3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d12ec7f3a39095901c2c497fa8f98de') in 0.030899 seconds 
-  Import took 0.049168 seconds .
+  Time since last request: 585.730568 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefEXEMPLO2-fase1.png
+  artifactKey: Guid(46844bea6001e6043b45c4ca2306df9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefEXEMPLO2-fase1.png using Guid(46844bea6001e6043b45c4ca2306df9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3e310aac42f3f53086d51723505d0f') in 0.151715 seconds 
+  Import took 0.174059 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/2DGamekit/Prefabs/Utilities/SplashSoundPlayer.prefab
-  artifactKey: Guid(a7584c3225fcd2a4191583462325ef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2DGamekit/Prefabs/Utilities/SplashSoundPlayer.prefab using Guid(a7584c3225fcd2a4191583462325ef39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3428d34ae16b0ee1a6e35b5bdb4e0b') in 0.188253 seconds 
-  Import took 0.201031 seconds .
+  Time since last request: 255.935219 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefEXEMPLO3-fase1.png
+  artifactKey: Guid(dac9585cf2fc6794996354a361112423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefEXEMPLO3-fase1.png using Guid(dac9585cf2fc6794996354a361112423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010e09eaa66223366bd7f2712498efd5') in 0.131332 seconds 
+  Import took 0.157456 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/2DGamekit/Prefabs/Utilities/VFXController.prefab
-  artifactKey: Guid(db30b6a69797544c8a2f8777aa55668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2DGamekit/Prefabs/Utilities/VFXController.prefab using Guid(db30b6a69797544c8a2f8777aa55668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f949c17698a6e83808120a12f9f6243f') in 0.105308 seconds 
-  Import took 0.130298 seconds .
+  Time since last request: 449.458311 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefBancoPracinhaFase1.png
+  artifactKey: Guid(b4f3b0c7f36100d46a18adc026ee0ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefBancoPracinhaFase1.png using Guid(b4f3b0c7f36100d46a18adc026ee0ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6936aa8af9700eaebfb9e6133da3e11') in 0.049921 seconds 
+  Import took 0.076624 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001012 seconds.
-  path: Assets/2DGamekit/Prefabs/Utilities/VFXController.prefab
-  artifactKey: Guid(db30b6a69797544c8a2f8777aa55668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2DGamekit/Prefabs/Utilities/VFXController.prefab using Guid(db30b6a69797544c8a2f8777aa55668f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f949c17698a6e83808120a12f9f6243f') in 0.093942 seconds 
-  Import took 0.120293 seconds .
+  Time since last request: 70.175315 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefArbustoPracinha.png
+  artifactKey: Guid(8bcf8435a7a35cb41b7927a95447297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefArbustoPracinha.png using Guid(8bcf8435a7a35cb41b7927a95447297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc604c7eba67a343ac324f14530df66') in 0.056126 seconds 
+  Import took 0.068662 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037788 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefArbustoPracinha.png
+  artifactKey: Guid(8bcf8435a7a35cb41b7927a95447297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefArbustoPracinha.png using Guid(8bcf8435a7a35cb41b7927a95447297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc604c7eba67a343ac324f14530df66') in 0.034363 seconds 
+  Import took 0.052567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.731244 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefPlantinhaPracinha.png
+  artifactKey: Guid(7aaa636747c5089459ee7db811aaec70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefPlantinhaPracinha.png using Guid(7aaa636747c5089459ee7db811aaec70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f907d34a5a0e2e572015418cda230af7') in 0.047842 seconds 
+  Import took 0.068319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.881257 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefMatinhoFase1.png
+  artifactKey: Guid(3942366053d864d41a3fa38d404ac594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefMatinhoFase1.png using Guid(3942366053d864d41a3fa38d404ac594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e5b0bca92df1fa1775d9f8b983afff') in 0.047650 seconds 
+  Import took 0.075064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 329.192809 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefRelevoChao.png
+  artifactKey: Guid(2ef50ece98e2e5c42b68646618c1342f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefRelevoChao.png using Guid(2ef50ece98e2e5c42b68646618c1342f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd34457c9e433c9222b6d8fd139ed8dd') in 0.042235 seconds 
+  Import took 0.058016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007648 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefRelevoChao.png
+  artifactKey: Guid(2ef50ece98e2e5c42b68646618c1342f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefRelevoChao.png using Guid(2ef50ece98e2e5c42b68646618c1342f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd34457c9e433c9222b6d8fd139ed8dd') in 0.043713 seconds 
+  Import took 0.057922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.038635 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefRelevoChao2.png
+  artifactKey: Guid(c9e3b510d9850aa459751ced8af28e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefRelevoChao2.png using Guid(c9e3b510d9850aa459751ced8af28e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b2923202fc7144535c87f391dc9c59') in 0.040220 seconds 
+  Import took 0.059845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008172 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefRelevoChao2.png
+  artifactKey: Guid(c9e3b510d9850aa459751ced8af28e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefRelevoChao2.png using Guid(c9e3b510d9850aa459751ced8af28e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b2923202fc7144535c87f391dc9c59') in 0.043235 seconds 
+  Import took 0.053527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 797.885052 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefCogumeloTriplo.png
+  artifactKey: Guid(5db28793bf5a5e345be4a397d31c67f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefCogumeloTriplo.png using Guid(5db28793bf5a5e345be4a397d31c67f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadd6ec3fb60c3083fde3d41b2d10a8d') in 0.047036 seconds 
+  Import took 0.065733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001563 seconds.
+  path: Assets/2DGamekit/Art/Sprites/Environment/PylefCogumeloTriplo.png
+  artifactKey: Guid(5db28793bf5a5e345be4a397d31c67f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Sprites/Environment/PylefCogumeloTriplo.png using Guid(5db28793bf5a5e345be4a397d31c67f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadd6ec3fb60c3083fde3d41b2d10a8d') in 0.040157 seconds 
+  Import took 0.055996 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.041221 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.671 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4674ms)
+		BeginReloadAssembly (1005ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (77ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (452ms)
+		EndReloadAssembly (3263ms)
+			LoadAssemblies (645ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1595ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (121ms)
+			SetupLoadedEditorAssemblies (810ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (627ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.7 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3022.
+Total: 4.662800 ms (FindLiveObjects: 0.316900 ms CreateObjectMapping: 0.149100 ms MarkObjects: 3.938100 ms  DeleteObjects: 0.256300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.415 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3416ms)
+		BeginReloadAssembly (320ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (2894ms)
+			LoadAssemblies (272ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (902ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (169ms)
+			SetupLoadedEditorAssemblies (1166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (216ms)
+				ProcessInitializeOnLoadAttributes (887ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.8 MB.
+System memory in use after: 116.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3026.
+Total: 5.775200 ms (FindLiveObjects: 0.362600 ms CreateObjectMapping: 0.173300 ms MarkObjects: 4.691100 ms  DeleteObjects: 0.545400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

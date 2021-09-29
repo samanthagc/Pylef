@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Fase Teste.unity
+- path: Assets/Fase Um.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

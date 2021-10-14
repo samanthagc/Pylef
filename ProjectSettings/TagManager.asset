@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - manga
+  - JumpExtra
+  - red
   layers:
   - Default
   - TransparentFX
@@ -34,10 +37,10 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - PlayerDrop
   - Platform
+  - Background
+  - PlayerDrop
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0

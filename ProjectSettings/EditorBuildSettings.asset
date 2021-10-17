@@ -48,6 +48,12 @@ EditorBuildSettings:
     path: 
     guid: a341347ecfade124f817cac8ea56a209
   - enabled: 1
-    path: Assets/Fase Teste.unity
+    path: 
     guid: cac4578060d8051438f64b4f7adae1cd
+  - enabled: 1
+    path: Assets/Fase Um.unity
+    guid: ebacebf9e79711c488009155036c9b7e
+  - enabled: 1
+    path: Assets/Fase Dois.unity
+    guid: c8301d6e1bafddb489dfda53338ca2b7
   m_configObjects: {}
